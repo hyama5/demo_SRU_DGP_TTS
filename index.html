@@ -1,1 +1,81 @@
-Demo page is going to be places here.
+<html>
+<head>
+<title>Samples of Utterance-level Sequential Modeling For Deep Gaussian Process Based Speech Synthesis Using Simple Recurrent Unit</title>
+<style>
+    audio { width: 200px; }
+</style>
+
+</head>
+<body>
+<center>
+<h2><font color=#0000FF>Samples of Utterance-level Sequential Modeling For Deep Gaussian Process Based </br> Speech Synthesis Using Simple Recurrent Unit</font></h2>
+
+<table border=1 align=center>
+<tr><th width=20>utterance</th><th width=20>LSTM-RNN</th><th width=20>SRU-NN</th><th width=20>SRU-BayesNN</th><th width=20>FF-DGP</th><th width=20>SRU-DGP (Proposed)</th></tr>
+
+<tr align=center><td>BASIC5000_0068</td>
+    <td><audio controls="controls" ><source src="./wav/nn-lstm/BASIC5000_0068.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/nn-sru/BASIC5000_0068.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/bnn-sru/BASIC5000_0068.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-ff/BASIC5000_0068.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-sru/BASIC5000_0068.wav" autoplay/>x</audio></td>
+</tr>
+
+<tr align=center><td>BASIC5000_0168</td>
+    <td><audio controls="controls" ><source src="./wav/nn-lstm/BASIC5000_0168.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/nn-sru/BASIC5000_0168.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/bnn-sru/BASIC5000_0168.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-ff/BASIC5000_0168.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-sru/BASIC5000_0168.wav" autoplay/>x</audio></td>
+</tr>
+
+<tr align=center><td>BASIC5000_0313</td>
+    <td><audio controls="controls" ><source src="./wav/nn-lstm/BASIC5000_0313.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/nn-sru/BASIC5000_0313.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/bnn-sru/BASIC5000_0313.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-ff/BASIC5000_0313.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-sru/BASIC5000_0313.wav" autoplay/>x</audio></td>
+</tr>
+
+<tr align=center><td>BASIC5000_0647</td>
+    <td><audio controls="controls" ><source src="./wav/nn-lstm/BASIC5000_0647.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/nn-sru/BASIC5000_0647.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/bnn-sru/BASIC5000_0647.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-ff/BASIC5000_0647.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-sru/BASIC5000_0647.wav" autoplay/>x</audio></td>
+</tr>
+
+<tr align=center><td>BASIC5000_1300</td>
+    <td><audio controls="controls" ><source src="./wav/nn-lstm/BASIC5000_1300.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/nn-sru/BASIC5000_1300.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/bnn-sru/BASIC5000_1300.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-ff/BASIC5000_1300.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-sru/BASIC5000_1300.wav" autoplay/>x</audio></td>
+</tr>
+
+<tr align=center><td>BASIC5000_1616</td>
+    <td><audio controls="controls" ><source src="./wav/nn-lstm/BASIC5000_1616.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/nn-sru/BASIC5000_1616.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/bnn-sru/BASIC5000_1616.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-ff/BASIC5000_1616.wav" autoplay/>x</audio></td>
+    <td><audio controls="controls" ><source src="./wav/dgp-sru/BASIC5000_1616.wav" autoplay/>x</audio></td>
+</tr>
+
+</table>
+
+
+<br><br>
+
+<table border=1 width=600>
+<tr><th width=100>Methods</th><th>Meaning</th></tr>
+<tr align=center><td>LSTM-RNN</td><td align=left style="padding-left:10px">Conventional NN-based method using LSTM blocks.</td></tr>
+<tr align=center><td>SRU-NN</td><td align=left style="padding-left:10px">Conventional NN-based method using SRU blocks.</td></tr>
+<tr align=center><td>SRU-BayesNN</td><td align=left style="padding-left:10px">Bayesien NN-based method using SRU blocks.</td></tr>
+<tr align=center><td>FF-DGP</td><td align=left style="padding-left:10px">Conventional DGP-based method using feedforward blocks.</td></tr>
+<tr align=center><td>SRU-DGP</td><td align=left style="padding-left:10px">Proposed DGP-based method using SRU blocks.</td></tr>
+</table>
+<br><br>
+
+</center>
+</body>
+</html>
